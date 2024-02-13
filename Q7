@@ -1,0 +1,9 @@
+  const userProfile = {
+  username: 'divya_lata',
+  email: 'divya@gmail.com',
+  age: 35
+};
+
+userProfile.isActive = true;
+
+console.log(userProfile);
