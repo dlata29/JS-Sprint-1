@@ -1,0 +1,12 @@
+const lib = [
+  { title: "book1", author: "author1" },
+  { title: "book2", author: "author1" },
+  { title: "book3", author: "author1" },
+];
+
+function findBook(arr, findTitle) {
+  return arr.find(({ title }) => title == findTitle);
+};
+
+
+console.log(findBook(lib, "book1"));
