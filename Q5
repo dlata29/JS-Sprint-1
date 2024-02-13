@@ -1,0 +1,8 @@
+const expense= [
+  {category:"food", amount: 450},
+  {category: "rent", amount: 550},
+  {catergory: "movies", amount: 200}
+];
+
+    const sum=  expense.map(expense => expense.amount).reduce((acc, curr) => acc + curr, 0);;  
+    console.log(sum);
