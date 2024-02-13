@@ -1,0 +1,10 @@
+const arr = [
+
+  {name: "divya", age: 25},
+  {name: "vidya", age: 36},
+  {name: "teja", age: 47}
+];
+
+const ageFilter = arr.filter(Findage => Findage.age > 35).map(persons => persons.name);;
+
+console.log(ageFilter);
