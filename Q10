@@ -1,0 +1,10 @@
+ const items = [
+  { name: "tv", value: 21 },
+  { name: "fridge", value: 37 },
+  { name: "AC", value: 45 },
+  { name: "remote", value: -12 },
+  { name: "laptop", value: 13 },
+  { name: "fan", value: 37 },
+];
+
+console.log(items.sort((a, b) => a.value - b.value));
