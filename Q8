@@ -1,0 +1,8 @@
+ const fruits=[
+  {name :"mango", num:3},
+  {name :"apple", num:6},
+  {name:"melon", num:9}
+];
+
+const filterFruits= fruits.filter((quantity) => quantity.num > 6);
+console.log(filterFruits);
